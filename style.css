@@ -1,0 +1,51 @@
+/* SETUP*/
+@import url('https://fonts.googleapis.com/css2?family-Roboto+Slab&display=swap');
+picture{
+    display:block;
+}img{
+    display: block;
+    width:100%;
+    height:auto;/* images will be that of the parent*/
+}
+a{
+    color:inherit;/*takes up color of parent*/
+    text-decoration:none;/*removes underline*/
+}p a,li  a{
+    color:blue;
+    text-decoration:underline; /* makes links in specific places look linky*/
+}
+/* DEV STYLES*/
+
+/*STRUCTURE*/
+main{
+    flex:1;/*it will expand and footer will always be at the bottom*/
+}inner-column{
+    display: block;
+    border: 4px solid orange;
+    padding:10px;     
+}body{
+    display:flex;
+    flex-flow:column;
+    font-family: 'Roboto Slab', serif;
+    min-height:100vh;
+}#firstS{
+    background-color:#1f2937;
+    color:white
+}
+/*COMPONENTS*/
+
+/*MODULES*/
+graphic-diptych text-content{
+    display:block;
+    border:4px solid orange;
+}header, footer, main{
+    border:4px solid red;
+}section{
+    border:4px solid lime;  
+}
+@media(min-width: 700px){
+    graphic-diptych{
+        display:flex;
+         flex-direction:row-reverse;
+    }
+}

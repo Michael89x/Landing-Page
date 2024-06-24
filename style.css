@@ -1,51 +1,83 @@
-/* SETUP*/
 @import url('https://fonts.googleapis.com/css2?family-Roboto+Slab&display=swap');
-picture{
-    display:block;
-}img{
-    display: block;
-    width:100%;
-    height:auto;/* images will be that of the parent*/
-}
-a{
-    color:inherit;/*takes up color of parent*/
-    text-decoration:none;/*removes underline*/
-}p a,li  a{
-    color:blue;
-    text-decoration:underline; /* makes links in specific places look linky*/
-}
-/* DEV STYLES*/
 
-/*STRUCTURE*/
-main{
-    flex:1;/*it will expand and footer will always be at the bottom*/
-}inner-column{
-    display: block;
-    border: 4px solid orange;
-    padding:10px;     
-}body{
+body{
+    font-family: 'Roboto-Slab','sans';
+    font-size: 18px;
+}#p1column{
     display:flex;
-    flex-flow:column;
-    font-family: 'Roboto Slab', serif;
-    min-height:100vh;
-}#firstS{
-    background-color:#1f2937;
-    color:white
+    margin:10.1428vh;
+    height:50.714vh; 
+    width:71%;  
+    position:absolute;
+    left:14.5vh;
+}/* section 1*/
+#p1 {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    height:71vh;
+    width:100%;
+    margin:-0.5%;
+}header{
+ display:flex; 
+ padding-top:10px;
+ background-color: #1F2937;
+  margin-bottom:-50px; 
+}#logo, #links{
+    display:flex;
+    width:50%;
+    justify-content: center; 
+    gap:8%;
+    font-size: 18px;
+}#logo{
+    font-size: 24px; 
+}#awedescript{
+    color:#E5E7EB;
 }
-/*COMPONENTS*/
-
-/*MODULES*/
-graphic-diptych text-content{
+#signup{
+height: 11%;
+width:24%;
+font-size:20px;
+border-radius:10%;
+}#awesome{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight:800;
+}#lefttext{
+width:50%;
+position: relative;
+}#rightimage{
+display: flex;
+align-items: center;
+margin-left:50px;
+width:50%;
+}
+/* section 2*/
+#p2{
+display:flex;
+flex-flow: column;
+height:60vh;  
+align-items:center;
+}#randomInfo{
+    font-size:36px; 
+    font-weight: 800; 
+    gap:1vh;
+}picBook{
     display:block;
-    border:4px solid orange;
-}header, footer, main{
-    border:4px solid red;
-}section{
-    border:4px solid lime;  
-}
-@media(min-width: 700px){
-    graphic-diptych{
-        display:flex;
-         flex-direction:row-reverse;
-    }
+    display:flex;
+    width:71vw;
+    justify-content: space-evenly;
+    border: 4px solid orange;
+    padding-left: 2%;
+    padding-right: 2%;
+}picBook picture img{
+    width:100%;
+    aspect-ratio: 1/1;
+    border-radius: 5%;
+    border:4px solid #3882F6;
+}picBook picture{
+    width:12.982776vw;
+}picBook picture p{
+font-size: 16px;
+margin:0;
+text-align: center;
 }

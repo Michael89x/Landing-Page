@@ -60,11 +60,11 @@ align-items:center;
 }#randomInfo{
     font-size:36px; 
     font-weight: 800; 
-    gap:1vh;
+    gap:2vh;
 }picBook{
     display:block;
     display:flex;
-    width:62vw;
+    width:63vw;
     justify-content: space-evenly;
     padding-left: 2%;
     padding-right: 2%;
@@ -74,8 +74,11 @@ align-items:center;
     border-radius: 10%;
     border:5px solid #3882F6;
 }picBook picture{
-    width:10.92776vw;
+    width:10.74776vw;
 }picBook picture p{
 margin:0;
 text-align: center;
+}picBook,#randomInfo{
+    position:relative;
+    top:15%;
 }

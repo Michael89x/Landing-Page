@@ -64,20 +64,18 @@ align-items:center;
 }picBook{
     display:block;
     display:flex;
-    width:71vw;
+    width:62vw;
     justify-content: space-evenly;
-    border: 4px solid orange;
     padding-left: 2%;
     padding-right: 2%;
 }picBook picture img{
     width:100%;
     aspect-ratio: 1/1;
-    border-radius: 5%;
-    border:4px solid #3882F6;
+    border-radius: 10%;
+    border:5px solid #3882F6;
 }picBook picture{
-    width:12.982776vw;
+    width:10.92776vw;
 }picBook picture p{
-font-size: 16px;
 margin:0;
 text-align: center;
 }

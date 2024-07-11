@@ -82,3 +82,26 @@ text-align: center;
     position:relative;
     top:15%;
 }
+/* section 3*/
+#p3{
+    height:60vh;
+    background-color: #E5E7EB;
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+    justify-content: center;
+}#p3inner{
+    display:flex;
+    flex-flow:column;
+}#mainQuote{
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    font-weight: 300;
+    width:63vw;
+    margin:0;
+}#author{
+    width:fit-content;
+    align-self:flex-end;
+    margin:0;
+}

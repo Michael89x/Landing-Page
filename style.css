@@ -10,6 +10,7 @@ body{
     width:71%;  
     position:absolute;
     left:14.5vh;
+    align-items: center;
 }/* section 1*/
 #p1 {
     background-color: #1F2937;
@@ -33,11 +34,11 @@ body{
 }#awedescript{
     color:#E5E7EB;
 }
-#signup{
+.signup{
 height: 11%;
 width:24%;
 font-size:20px;
-border-radius:10%;
+border-radius:10px;
 }#awesome{
     font-size: 48px;
     color:#F9FAF8;
@@ -45,11 +46,13 @@ border-radius:10%;
 }#lefttext{
 width:50%;
 position: relative;
+
 }#rightimage{
 display: flex;
-align-items: center;
 margin-left:50px;
+align-items:center;
 width:50%;
+height:103%;
 }
 /* section 2*/
 #p2{
@@ -84,7 +87,7 @@ text-align: center;
 }
 /* section 3*/
 #p3{
-    height:60vh;
+    height:50vh;
     background-color: #E5E7EB;
     display:flex;
     flex-flow:column;
@@ -98,10 +101,43 @@ text-align: center;
     font-style: italic;
     color:#1F2937;
     font-weight: 300;
-    width:63vw;
+    width:50vw;
     margin:0;
 }#author{
     width:fit-content;
     align-self:flex-end;
     margin:0;
+}
+/* section 4*/
+#p4{
+height:40vh;
+display:flex;
+align-items: center;
+justify-content: center;
+}#cta{ 
+    display:flex;
+    height:15vh;
+    width:70vw;
+    border-radius: 10px;
+    background-color:#3882F6;
+    color:white;
+    flex-flow:  wrap;
+    justify-content:space-evenly;
+    align-items:center
+}#ctas{
+    height:25%;
+    width:12%;
+    color:white;
+    background-color: transparent;
+    border: white solid 4px;
+}.ctat{
+    margin: 0px;
+    padding: 0px;
+}footer{
+    display:flex;
+    background-color:#1F2937;
+    color:white;
+    height:10.29vh;
+    justify-content: center;
+    align-items: center;
 }
